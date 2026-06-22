@@ -1,23 +1,27 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# ── Credentials (never commit) ───────────────────────────────────────────────
+U Trace/Services/Networking/InsforgeConfig.swift
+
+# ── Xcode user data ───────────────────────────────────────────────────────────
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+DerivedData/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+*~
+
+# ── Swift Package Manager cache ───────────────────────────────────────────────
+.build/
+.swiftpm/
+
+# ── CocoaPods (if ever added) ────────────────────────────────────────────────
+Pods/
